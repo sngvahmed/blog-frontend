@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  activeId: number = 1;
+
+  subItemMouseClick(id){
+    this.activeId = id;
+  }
+
+  getCustomWidth(id):string{
+    if(id == this.activeId){
+      return "200px"
+    }
+    return "";
+  }
 }
