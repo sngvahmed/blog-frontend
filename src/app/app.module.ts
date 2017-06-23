@@ -10,6 +10,7 @@ import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 
 const appRoutes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path:'home' , component:HomeComponent},
   { path:'about' , component:AboutComponent},
   { path:'mywork' , component:MyWorkComponent},

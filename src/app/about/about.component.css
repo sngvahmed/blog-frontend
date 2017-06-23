@@ -1,0 +1,21 @@
+p,
+li {
+    font-family: monospace;
+}
+
+.autor-style {
+    color: blue;
+}
+
+q {
+    font-size: x-large;
+    color: grey;
+}
+
+.without-point {
+    list-style-type: none;
+}
+
+.with-point {
+    list-style-type: discl
+}
